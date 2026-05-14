@@ -21,33 +21,33 @@ Random Forest Classifier with:
     * Stratified train-test split
     * Hyperparameter tuning
 
-* 📈 **Explainable AI**
+* **Explainable AI**
 
   * Shows per-symptom feature importance
   * Helps users understand model decisions
 
-* ⚙️ **Dynamic Prediction Threshold**
+* **Dynamic Prediction Threshold**
 
   * User-configurable confidence threshold slider
   * Filters low-confidence predictions
 
-* 📦 **Optimized Performance**
+* **Optimized Performance**
 
   * Uses `@st.cache_data` to avoid redundant model retraining
   * Faster response times across sessions
 
-* 📋 **Dataset Insights Dashboard**
+* **Dataset Insights Dashboard**
 
   * Disease distribution visualization
   * Symptom inventory overview
 
-* 🌐 **Production-Ready Deployment**
+* **Production-Ready Deployment**
 
   * Configured with Gunicorn and runtime setup
 
 ---
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 * **Frontend & Deployment**
 
@@ -66,11 +66,11 @@ Random Forest Classifier with:
 
 * **Visualization**
 
-  * Matplotlib / Plotly (if applicable)
+  * Matplotlib
 
 ---
 
-## 📂 Project Structure
+## Project Structure
 
 ```bash
 Waterborne-Disease-Prediction-System/
@@ -88,22 +88,22 @@ Waterborne-Disease-Prediction-System/
 
 ---
 
-## ⚡ Installation & Setup
+## Installation & Setup
 
-### 1️⃣ Clone the Repository
+### 1. Clone the Repository
 
 ```bash
 git clone https://github.com/your-username/waterborne-disease-prediction-system.git
 cd waterborne-disease-prediction-system
 ```
 
-### 2️⃣ Create Virtual Environment
+### 2. Create Virtual Environment
 
 ```bash
 python -m venv venv
 ```
 
-### 3️⃣ Activate Environment
+### 3. Activate Environment
 
 #### Windows
 
@@ -117,13 +117,13 @@ venv\Scripts\activate
 source venv/bin/activate
 ```
 
-### 4️⃣ Install Dependencies
+### 4. Install Dependencies
 
 ```bash
 pip install -r requirements.txt
 ```
 
-### 5️⃣ Run the Application
+### 5. Run the Application
 
 ```bash
 streamlit run app.py
@@ -131,7 +131,7 @@ streamlit run app.py
 
 ---
 
-## 🧪 Machine Learning Workflow
+## Machine Learning Workflow
 
 1. Data preprocessing and symptom encoding
 2. Stratified train-test split
@@ -146,7 +146,7 @@ streamlit run app.py
 
 ---
 
-## 📊 Example Predictions
+## Example Predictions
 
 | Symptoms                  | Predicted Disease | Confidence |
 | ------------------------- | ----------------- | ---------- |
@@ -156,19 +156,6 @@ streamlit run app.py
 
 ---
 
-## 👨‍💻 Author
+## Author
 
 **Riya Rawat**
-Machine Learning .......
-
----
-
-## ⭐ Future Improvements
-
-* Deep Learning-based prediction models
-* Multi-language support
-* Patient history integration
-* Cloud database integration
-* Mobile-responsive UI
-* Docker containerization
-
